@@ -10,4 +10,4 @@ Name: uuid
 Description: libuuid compatible library
 Version: @VERSION@
 Cflags: -I${includedir}
-Libs: -L${libdir} -lrpcrt4 -luuid_mingw
+Libs: -L${libdir} -luuid_mingw -lrpcrt4
